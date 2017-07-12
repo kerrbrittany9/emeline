@@ -1,7 +1,8 @@
 body {
   background-image: url(../img/flower.jpg);
   background-size: 40%;
-  background-repeat: round;
+  background-repeat: no-repeat;
+  background-size: cover;
   font-family: 'Lemonada', cursive;
   }
 .jumbotron {
@@ -42,6 +43,9 @@ body {
 #emeline {
   display: none;
 }
+
+
+
 
 .pyro > .before, .pyro > .after {
   position: absolute;

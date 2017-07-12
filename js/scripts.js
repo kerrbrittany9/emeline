@@ -5,17 +5,17 @@ $(document).ready(function() {
     $("#slice").toggle();
   });
 
-  $("#start").click(function(){
+  $("#question").click(function(){
     $("#question").hide();
     $("#daddy").fadeIn(1500);
 
   });
-  $("#continue").click(function(){
+  $("#daddy").click(function(){
     $("#daddy").hide();
     $("#brittany").fadeIn(1500);
 
   });
-  $("#again").click(function(){
+  $("#brittany").click(function(){
     $("#brittany").hide();
     $("#emeline").fadeIn(1500);
 
